@@ -39,7 +39,7 @@ elif os.path.exists("config.py"):
 
 async def setup_bot():
     """
-    To set up bot for jepthon
+    To set up bot for SHARK
     """
     try:
         await jepiq.connect()
