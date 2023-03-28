@@ -140,8 +140,8 @@ class JokerClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**تقرير خطا الجوكر**\n\n"
-                        link = "[هنا](https://t.me/JepthonSupport)"
+                        text = "**تقرير خطا القرش**\n\n"
+                        link = "[هنا](https://t.me/QW_PN)"
                         text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
                         text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"
                         text += "لا يتم تسجيل اي خطا فقط التاريخ والوقت\n\n"
@@ -255,8 +255,8 @@ class JokerClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**تقرير خطا الجوكر**\n\n"
-                        link = "[هنا](https://t.me/GroupJepthon)"
+                        text = "**تقرير خطا القرش**\n\n"
+                        link = "[هنا](https://t.me/QW_PN)"
                         text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
                         text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"
                         text += "لا يتم تسجيل اي خطا فقط التاريخ والوقت\n\n"
