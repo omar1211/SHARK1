@@ -13,7 +13,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         query = event.text
         await bot.get_me()
         if query.startswith("السورس") and event.query.user_id == bot.uid:
-            buttons = [[Button.url("1- شرح التنصيب", "https://t.me/L_H_V"), Button.url("2- استخراج ايبيات", "https://my.telegram.org/"),],[Button.url("3- ستخراج جلسه", "https://t.me/Stringsharkbot"), Button.url("4- بوت فاذر", "http://t.me/BotFather"),],[Button.url("5- رابط التنصيب", "https://heroku.com/deploy?template=https://github.com/omar1211/D"),],[Button.url("المطـور 👨🏼‍💻", "https://t.me/T_3_A"),]]
+            buttons = [[Button.url("1- شرح التنصيب", "https://t.me/L_H_V"), Button.url("2- استخراج ايبيات", "https://my.telegram.org/"),],[Button.url("3- ستخراج جلسه", "https://t.me/Stringsharkbot"), Button.url("4- بوت فاذر", "http://t.me/BotFather"),],[Button.url("5- رابط التنصيب", "https://dashboard.heroku.com/new?template=https://github.com/omar1211/D"),],[Button.url("المطـور 👨🏼‍💻", "https://t.me/T_3_A"),]]
             if ROZ_PIC and ROZ_PIC.endswith((".jpg", ".png", "gif", "mp4")):
                 result = builder.photo(ROZ_PIC, text=ROZ, buttons=buttons, link_preview=False)
             elif ROZ_PIC:
