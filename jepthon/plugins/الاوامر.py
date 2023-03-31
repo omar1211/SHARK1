@@ -20,7 +20,8 @@ plugin_category = "extra"
 Command = Config.COMM_ET or "الاوامر"
 
 rehu = [
-    
+ ,"صلي علي النبي"
+]   
 @jepiq.on(admin_cmd(pattern=f"{Command}(?:\s|$)([\s\S]*)"))
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
