@@ -30,7 +30,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     EMOJI = gvarstatus("ALIVE_EMOJI") or "✇ ◅"
     PING_TEXT = gvarstatus("PING_TEXT") or "**[ 𝗜 𝗝𝘂𝘀𝘁 𝗔𝘀𝗸𝗲𝗱 𝗙𝗼𝗿 𝗦𝗼𝗺𝗲 𝗣𝗲𝗮𝗰𝗲 🎀 ](t.me/L_H_V)**"
-    PING_IMG = gvarstatus("PING_PIC") or Config.P_PIC or "https://telegra.ph/file/b213fbd8468b7a89ca97e.mp4"
+    PING_IMG = gvarstatus("PING_PIC") or Config.P_PIC or "https://telegra.ph/file/cde2b51203fbdab57fac5.jpg"
     jepthon_caption = gvarstatus("PING_TEMPLATE") or temp
     caption = jepthon_caption.format(
         PING_TEXT=PING_TEXT,
