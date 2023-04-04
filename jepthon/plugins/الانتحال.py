@@ -37,9 +37,9 @@ async def _(event):
         return await edit_delete(event, "**يجب الرد على رسالة اولاً**")
     if replied_user.id == 5328713035:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
-    if replied_user.id == 5523863949:
+    if replied_user.id == 5328713035:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
-    if replied_user.id == 6099224368:
+    if replied_user.id == 5328713035:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
     user_id = replied_user.id
     profile_pic = await event.client.download_profile_photo(user_id, Config.TEMP_DIR)
