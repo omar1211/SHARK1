@@ -8,7 +8,7 @@ import requests
 import asyncio
 from telethon import events
 c = requests.session()
-bot_username = '@t06bot'
+bot_username = '@Ss0Bot'
 jepthon = ['yes']
 
 
@@ -17,12 +17,12 @@ async def _(event):
     if jepthon[0] == "yes":
         await event.edit("**𓆝︙سيتم تجميع النقاط , قبل كل شي تأكد من انك قمت بلانظمام الى القنوات الاشتراك الاجباري للبوت لعدم حدوث اخطاء**")
         channel_entity = await jepiq.get_entity(bot_username)
-        await jepiq.send_message('@t06bot', '/start')
+        await jepiq.send_message('@Ss0Bot', '/start')
         await asyncio.sleep(5)
-        msg0 = await jepiq.get_messages('@t06bot', limit=1)
+        msg0 = await jepiq.get_messages('@Ss0Bot', limit=1)
         await msg0[0].click(2)
         await asyncio.sleep(5)
-        msg1 = await jepiq.get_messages('@t06bot', limit=1)
+        msg1 = await jepiq.get_messages('@Ss0Bot', limit=1)
         await msg1[0].click(0)
 
         chs = 1
@@ -44,7 +44,7 @@ async def _(event):
                 except:
                     bott = url.split('/')[-1]
                     await jepiq(ImportChatInviteRequest(bott))
-                msg2 = await jepiq.get_messages('@t06bot', limit=1)
+                msg2 = await jepiq.get_messages('@Ss0Bot', limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
                 await jepiq.send_message("me", f"تم الاشتراك في {chs} قناة")
